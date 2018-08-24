@@ -18,3 +18,7 @@ function destructivelyRemoveFirstKitten(name) {
   kittens = kittens.slice(0);
   return kittens
 }
+
+function prependKitten(name) {
+  return kittens.push(name)
+}
